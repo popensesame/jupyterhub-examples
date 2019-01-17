@@ -365,14 +365,7 @@ c.JupyterHub.extra_handlers = [
 #              'environment':
 #          }
 #      ]
-c.JupyterHub.services = [
-    {
-        'name': 'stochss',
-        'api_token': '2f9d88896b7cf390a4c3f1d0e8a813e4de563a87d33bd3fd3ad09a25d513295a',
-        'admin': True,
-        'url': 'http://127.0.0.1:8888',
-    }
-]
+#c.JupyterHub.services = []
 
 ## The class to use for spawning single-user servers.
 #  

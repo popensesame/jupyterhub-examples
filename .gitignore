@@ -1,2 +1,3 @@
 jupyterhub_cookie_secret
 *.swp
+*.sqlite
