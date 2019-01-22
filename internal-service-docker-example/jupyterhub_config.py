@@ -180,7 +180,11 @@
 #  
 #  The Hub prefix will be added, so `/my-page` will be served at `/hub/my-page`.
 
-#c.JupyterHub.extra_handlers = []
+from stochss.handlers.test_page import TestPageHandler
+
+c.JupyterHub.extra_handlers = [
+    (r'/test-page', TestPageHandler)
+]
 
 ## DEPRECATED: use output redirection instead, e.g.
 #  
